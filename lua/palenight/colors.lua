@@ -17,7 +17,7 @@ return {
   violet         = "#bb80b3",
 
   invisibles     = "#4e5579",
-  comments       = "#5fff00",
+  comments       = "#afffd7",
   caret          = "#ffcc00",
   selection      = "#343b51",
   guides         = "#4e5579",
