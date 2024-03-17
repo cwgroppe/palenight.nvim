@@ -24,7 +24,7 @@ theme.loadEditor = function ()
     healthError       = { fg = color.error },
     healthSuccess     = { fg = color.green },
     healthWarning     = { fg = color.yellow },
-		IncSearch         = { fg = color.orange, bg = color.comments }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+		IncSearch         = { fg = color.cyan, bg = color.yellow }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
 		InsertMode        = { fg = color.green, bg = color.none, style = 'reverse' }, -- Insert mode message in the cmdline
 		LineNr            = { fg = color.line_numbers }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
 		MatchParen        = { fg = color.yellow, bg = color.selection, style = 'bold' }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
