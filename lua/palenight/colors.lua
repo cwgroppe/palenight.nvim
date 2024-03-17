@@ -10,7 +10,7 @@ return {
   green          = "#c3e88d",
   cyan           = "#89ddff",
   blue           = "#82aaff",
-  paleblue       = "#323333", --paleblue       = "#b2ccd6",
+  paleblue       = "#00b8ff", --paleblue       = "#b2ccd6",
   purple         = "#c792ea",
   brown          = "#c17e70",
   pink           = "#f07178",
