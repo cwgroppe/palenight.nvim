@@ -17,7 +17,7 @@ return {
   brown          = "#c17e70",
   pink           = "#f07178",
   violet         = "#bb80b3",
-  orchid         = "#5f8787",
+  orchid         = "5f87ff",
   magenta        = "#d700d7",
   invisibles     = "#4e5579",
   comments       = "#afffff",
