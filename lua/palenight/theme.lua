@@ -81,7 +81,7 @@ theme.loadSyntax = function ()
     Exception           = { fg = color.purple }, -- try, catch, throw
     Float               = { fg = color.orange }, -- a floating point constant: 2.3e10
     Function            = { fg = color.blue },
-    Identifier          = { fg = color.red },
+    Identifier          = { fg = color.oliveGreen },
     Ignore              = { fg = color.disabled }, -- left blank, hidden
     Include             = { fg = color.blue }, -- preprocessor #include
     Label               = { fg = color.purple }, -- case, default, etc.
