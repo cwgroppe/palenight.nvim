@@ -21,9 +21,9 @@ theme.loadEditor = function ()
 		FoldColumn        = { fg = color.line_numbers }, -- 'foldcolumn'
 		Folded            = { fg = color.brown, bg = color.none, style = 'bold,italic' }, -- line used for closed folds
 		FloatBorder       = { fg = color.paleblue, bg = color.bg },
-    healthError       = { fg = color.error },
-    healthSuccess     = { fg = color.green },
-    healthWarning     = { fg = color.yellow },
+                healthError       = { fg = color.error },
+                healthSuccess     = { fg = color.green },
+                healthWarning     = { fg = color.yellow },
 		IncSearch         = { fg = color.cyan, bg = color.orange }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
 		InsertMode        = { fg = color.green, bg = color.none, style = 'reverse' }, -- Insert mode message in the cmdline
 		LineNr            = { fg = color.line_numbers }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
@@ -31,7 +31,7 @@ theme.loadEditor = function ()
 		ModeMsg           = { fg = color.green }, -- 'showmode' message (e.g., "-- INSERT -- ")
 		MoreMsg           = { fg = color.green }, -- |more-prompt|
 		NonText           = { fg = color.comments }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
-    Normal            = { fg = color.fg, bg = color.bg },
+                Normal            = { fg = color.fg, bg = color.bg },
 		NormalFloat       = { fg = color.fg, bg = color.bg }, -- normal text and background color for floating windows
 		NormalMode        = { fg = color.pink, bg = color.none }, -- Normal mode message in the cmdline
 		Pmenu             = { fg = color.fg, bg = color.selection }, -- Popup menu: normal item.
@@ -41,7 +41,7 @@ theme.loadEditor = function ()
 		Question          = { fg = color.blue }, -- |hit-enter| prompt and yes/no questions
 		ReplacelMode      = { fg = color.red, bg = color.none, style = 'reverse' }, -- Replace mode message in the cmdline
 		Search            = { fg = color.white, bg = color.coments }, -- Last search pattern highlighting (see 'hlsearch').  Also used for similar items that need to stand out.
-    SignColumn        = { fg = color.fg, bg = color.bg },
+                SignColumn        = { fg = color.fg, bg = color.bg },
 		SpecialKey        = { fg = color.comments }, -- Unprintable characters: text displayed differently from what it really is.  But not 'listchars' whitespace. |hl-Whitespace|
 		SpellBad          = { fg = color.red, bg = color.none, style = 'italic,undercurl' }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
 		SpellCap          = { fg = color.blue, bg = color.none, style = 'italic,undercurl' }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
@@ -72,7 +72,7 @@ theme.loadSyntax = function ()
   local hl = {
     Boolean             = { fg = color.orange }, -- a boolean constant: TRUE, false
     Character           = { fg = color.orange }, -- any character constant: 'c', '\n'
-    Comment             =	{ fg = color.comments, bg = color.none, style = 'italic' }, -- italic comments
+    Comment             = { fg = color.comments, bg = color.none, style = 'italic' }, -- italic comments
     Constant            = { fg = color.orange }, -- any constant
     Debug               = { fg = color.red }, -- debugging statements
     Define              = { fg = color.purple }, -- preprocessor #define
