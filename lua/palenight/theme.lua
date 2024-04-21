@@ -81,7 +81,8 @@ theme.loadSyntax = function ()
     Exception           = { fg = color.purple }, -- try, catch, throw
     Float               = { fg = color.orange }, -- a floating point constant: 2.3e10
     Function            = { fg = color.blue },
-    Identifier          = { fg = color.oliveGreen },
+    Keyword             = { fg = color.red },
+    Identifier          = { fg = color.magenta },
     Ignore              = { fg = color.disabled }, -- left blank, hidden
     Include             = { fg = color.blue }, -- preprocessor #include
     Label               = { fg = color.purple }, -- case, default, etc.
@@ -94,7 +95,7 @@ theme.loadSyntax = function ()
     SpecialComment      = { fg = color.gray }, -- special things inside a comment
     Special             = { fg = color.violet }, -- any special symbol
     Statement           = { fg = color.purple }, -- any statement
-    -- StorageClass        = { fg = color.cyan }, -- static, register, volatile, etc.
+    StorageClass        = { fg = color.cyan }, -- static, register, volatile, etc.
     String              = { fg = color.green, bg = color.none }, -- Any string
     Structure           = { fg = color.cyan }, -- struct, union, enum, etc.
     Tag                 = { fg = color.pink }, -- you can use CTRL-] on this
